@@ -1,3 +1,4 @@
+var fs = require('fs');
 var Crawler = require("crawler").Crawler;
 
 /* Settings */
