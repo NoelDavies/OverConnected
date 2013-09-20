@@ -73,6 +73,12 @@ var c = new Crawler({
                 maxTags--;
             });
         });
+    },
+
+    "onDrain": function(){
+    	console.log('-------------------------------------------');
+    	console.log('------------- Finished  Scan --------------');
+    	console.log('-------------------------------------------');
     }
 });
 
