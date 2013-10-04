@@ -2,13 +2,13 @@ var Crawler = require("crawler").Crawler;
 
 /* Settings */
 var content     = {},
-	tags        = '|img'.split('|'),
+	tags        = 'a|img'.split('|'),
 	maxTags 	= 1000,
 	initial_url = 'http://creston.com/';
 
 
 var c = new Crawler({
-    "maxConnections":1,
+    "maxConnections":2,
     "skipDuplicates": true,
 
     // This will be called for each crawled page
