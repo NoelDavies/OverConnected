@@ -1,0 +1,47 @@
+{
+    "name": "OverConnected",
+    "version": "0.0.1",
+    "description": "It's a generative installation that uses crawler through websites and read the web and his markup language to display every img tag,  3D environment to generate a in way we create a new life form, a parasite who crawls the web feeding him. The installation itself displays several images and text at the same time in a circular disposition slowly fading the loaded images into the 3D space.",
+
+    "keywords": [
+        "dom",
+        "javascript",
+        "crawling",
+        "spider",
+        "scraper",
+        "scraping",
+        "jquery"
+    ],
+    "maintainers": [
+        {
+            "name": "Daniel Noel-Davies",
+            "email": "Dan@Cysha.com",
+            "url": "http://Cysha.co.uk"
+        }
+    ],
+    "bugs": {
+        "mail": "Dan@Cysha.com",
+        "url": "http://github.com/NoelDavies/node-crawler/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/NoelDavies/node-crawler/LICENSE.txt"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NoelDavies/node-crawler.git"
+    },
+    "dependencies": {
+        "socket.io": "0.9.16",
+        "crawler": "0.2.5"
+    },
+    "engines": [
+        "node >=0.6.x"
+    ],
+    "directories": {
+        "lib": "lib"
+    },
+    "main": "./lib/crawler"
+}
