@@ -21,17 +21,17 @@
     ],
     "bugs": {
         "mail": "Dan@Cysha.com",
-        "url": "http://github.com/NoelDavies/node-crawler/issues"
+        "url": "http://github.com/NoelDavies/OverConnected/issues"
     },
     "licenses": [
         {
             "type": "MIT",
-            "url": "http://github.com/NoelDavies/node-crawler/LICENSE.txt"
+            "url": "http://github.com/NoelDavies/OverConnected/LICENSE.txt"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/NoelDavies/node-crawler.git"
+        "url": "https://github.com/NoelDavies/OverConnected.git"
     },
     "dependencies": {
         "socket.io": "0.9.16",
